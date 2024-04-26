@@ -7,9 +7,9 @@ function clock() {
     const now = new Date()
     const diff = (end - now) / 1000;
 
-    console.log(end)
-    console.log(now)
-    console.log(diff)
+    // console.log(end)
+    // console.log(now)
+    // console.log(diff)
     
     if (diff<0) return;
     
